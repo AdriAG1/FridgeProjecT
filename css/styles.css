@@ -1,0 +1,61 @@
+@import url("bootstrap.min.css");
+
+@font-face{
+    font-family: "letras_nevera";
+    src: url("fonts/BeTrueToYourSchool-Regular.ttf");
+}
+
+*{
+    font-family: 'letras_nevera';
+}
+
+:root {
+    --black: #282b2b;
+    --light: #404242;
+    --dark: #070808;
+    --blue: #3ccfcf;
+    --title: #b9b9b9;
+}
+
+body {
+background: var(--black)
+}
+
+.jumbotron {
+    font-family: 'letras_nevera';
+    color: var(--dark);
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold;
+    font-size: 300%;
+}
+
+
+/* gifnevera */
+
+.gifnevera {
+    background-image: url("/img/neveroidev2.gif");
+    background-position-y: 500px; 
+    }
+
+.list-group-item {
+    text-decoration:none;
+    color: var(--blue);
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    background: var(--light);
+    box-shadow: -3px -3px 8px var(--light), 2px 2px 8px var(--dark) !important;
+    border: 1px solid #333333;
+    border-radius: 20px !important;
+    width: 80%;
+    left: 10%
+
+}
+
+footer {
+    background: var(--dark) !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
